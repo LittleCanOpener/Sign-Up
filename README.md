@@ -1,6 +1,5 @@
 # Sign-Up
-Brainnest Project Sign Up Advanced Course
-<h1>Brainnest Second Lecture - CSS & HTML</h1>
+<h1>Brainnest Project Sign Up Advanced Course - CSS & HTML</h1>
 <img src="./assets/images/readme/responsive.png">
 <h1>Deployment</h1>
 
