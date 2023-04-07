@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script src="./assets/js/script.js" defer></script>
+        <script src="./assets/js/response.json" defer></script>
+    </head>
+    <body> 
+        <header>
+        </header>
+        <main>
+            <h2>Do you want to get the best trip to paradisiac island?<br> Sign up now to get started.
+                <br><br>You know how to.
+            </h2>
+            <form action="https://httpbin.org/post" method="post">
+                <h1>Lets Do This!</h1>
+                <div>
+                    <label for="first_name">First Name*
+                        <input type="text" name="First Name" id="first_name" placeholder="Your First Name" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="last_name">Last Name*
+                        <input type="text" name="Last Name" id="last_name" placeholder="Your Last Name" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="email">Email*
+                        <input type="email" name="Email" id="email" placeholder="example@gmail.com" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="tel">Phone Number*
+                        <input type="tel" name="Phone" id="tel" placeholder="+000-000-0000" pattern="+[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="password">Password*
+                        <input type="password" placeholder="Password" id="password" required>
+                    </label>
+                </div>
+                
+                <div>
+                    <label for="confirm_password">Confirm Password*
+                        <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+                    </label>
+                </div>
+                <button type="submit">Create Account</button>
+                <aside>
+                    <picture>
+                        <img src="./assets/images/pexels-photo-fabian-wiktor.jpeg" alt="sunny beach with waves clashing with a sandy beach.">
+                    </picture>
+                </aside>
+            </form>
+        </main>
+        <footer>
+            <div class="">
+                <p>Already have an account? <a href="./assets/pages/login.html">Log in</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
