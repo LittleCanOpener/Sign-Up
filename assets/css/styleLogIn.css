@@ -120,3 +120,9 @@ body {
   p{
     padding: 5px;
   }
+  @media only screen and (max-width: 768px) {
+    main{
+      display: flex;
+      flex-direction: column;
+    }
+  }
