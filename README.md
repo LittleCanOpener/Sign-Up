@@ -23,7 +23,7 @@
         Click on the link to go to the live deployed page.
     </li>
     <li><h2>
-        <a href="#">
+        <a href="https://littlecanopener.github.io/Sign-Up/">
         Preview</a>
 </h2></li>
 </ul>
