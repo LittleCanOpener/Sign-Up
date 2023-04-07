@@ -1,4 +1,3 @@
-# Sign-Up
 <h1>Brainnest Project Sign Up Advanced Course - CSS & HTML</h1>
 <img src="./assets/images/am-i-responsive.png">
 <h1>Deployment</h1>
