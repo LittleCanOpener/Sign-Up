@@ -56,7 +56,7 @@
 <p>
     <img src="./assets/images/icons/googlefonts.svg" width="50px" height="50px"><br>
     <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
-    was used to meet the client's request on using <a href="https://fonts.google.com/specimen/Roboto" target="_blank">Roboto</a> for the text
+    was used to change the font for the websites logo
 </p><hr>
 
 <h3>GitPod:</h3>
@@ -74,7 +74,7 @@
 
 <h3>Google Chrome Developer Tools:</h3>
 <p>
-    <img src="./assets/images/icons/googledevtools.png" width="50px"        height="50px" role="img" viewBox="0 0 24 24"><br>
+    <img src="./assets/images/icons/googledevtools.png" width="50px" height="50px" role="img" viewBox="0 0 24 24"><br>
     Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
 </p><hr>
 
@@ -138,9 +138,9 @@
 </ul>
 
 <li>Lighthouse Validator Results:</li><hr><h4>Desktop:</h4>
-<img src="./assets/images/desktop.png"><hr>
+<img src="./assets/images/desktop.png">
 <h4>Moblie:</h4>
-<img src="./assets/images/moblie.png"><hr>
+<img src="./assets/images/moblie.png">
 
 <h2>Lighthouse:</h2>
 <h3>And why It's important to run before deployment</h3>
