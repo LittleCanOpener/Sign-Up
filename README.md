@@ -1,6 +1,6 @@
 # Sign-Up
 <h1>Brainnest Project Sign Up Advanced Course - CSS & HTML</h1>
-<img src="./assets/images/readme/responsive.png">
+<img src="./assets/images/am-i-responsive.png">
 <h1>Deployment</h1>
 
 <ul>
@@ -115,6 +115,16 @@
 <h4>Why CSS :</h4>
 <p>
     CSS makes the front-end of a website shine and it creates a great user experience. Without CSS, websites would be less pleasing to the eye and likely much harder to navigate. In addition to layout and format, CSS is responsible for font color and more.
+</p><hr>
+
+<h3>JavaScript:</h3>
+<p>
+    <img src="./assets/images/icons/javascript-icon.png" width="50px" height="50px"><br>
+    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+</p>
+<h4>Why JavaScript :</h4>
+<p>
+    JavaScript has become integral to the Internet experience as developers build increased interaction and complexity into their applications. Search engines, ecommerce, content management systems, responsive design, social media and phone apps would not be possible without it.
 </p>
 
 <h1>Testing</h1>
@@ -126,6 +136,11 @@
     target="_blank">CSS Validator Results
     </a></li>
 </ul>
+
+<li>Lighthouse Validator Results:</li><hr><h4>Desktop:</h4>
+<img src="./assets/images/desktop.png"><hr>
+<h4>Moblie:</h4>
+<img src="./assets/images/moblie.png"><hr>
 
 <h2>Lighthouse:</h2>
 <h3>And why It's important to run before deployment</h3>
