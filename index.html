@@ -5,18 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/script.js" defer></script>
+    <title>Document</title>
 </head>
 
 <body>
@@ -27,56 +24,48 @@
                 <p>paradisiac island</p>
             </div>
         </div>
-
         <div class="right-container">
             <div class="title">
                 <h3>Do you want to get the best trip to paradisiac island? Sign up <em>now </em>to get started.</h3>
                 <h3>You know how to.</h3>    
             </div>
-        
             <div class="main-container">
                 <h1>Let's do this!</h1>
-                <form action="https://httpbin.org/post" method="post">
+                <form action="#" method="POST">
                     <div class="items-box">
                         <div class="items">
                             <label for="first_name">First Name*
-                                <input type="text" name="First Name" id="first_name" placeholder="Your First Name"
+                                <input type="text" name="first-name" id="first_name" placeholder="Your First Name"
                                     required>
                             </label>
                         </div>
-
                         <div class="items">
                             <label for="last_name">Last Name*
-                                <input type="text" name="Last Name" id="last_name" placeholder="Your Last Name"
+                                <input type="text" name="last-name" id="last_name" placeholder="Your Last Name"
                                     required>
                             </label>
                         </div>
-
                         <div class="items">
                             <label for="email">Email*
-                                <input type="email" name="Email" id="email" placeholder="example@gmail.com" required>
+                                <input type="email" name="email" id="email" placeholder="example@gmail.com" autocomplete="email" required>
                             </label>
                         </div>
-
                         <div class="items">
                             <label for="tel">Phone Number*
                                 <input type="tel" name="Phone" id="tel" placeholder="+000-000-0000"
                                     pattern="+[0-9]{3}[0-9]{3}[0-9]{4}" required>
                             </label>
                         </div>
-
                         <div class="items">
                             <label for="password">Password*
-                                <input type="password" placeholder="Password" id="password" required>
+                                <input type="password" placeholder="Password" id="password" autocomplete="new-password" required>
                             </label>
                         </div>
-
                         <div class="items">
                             <label for="confirm_password">Confirm Password*
-                                <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+                                <input type="password" placeholder="Confirm Password" id="confirm_password" autocomplete="new-password" required>
                             </label>
                         </div>
-
                     </div>
                 </form>
             </div>
