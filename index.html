@@ -13,7 +13,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/script.js" defer></script>
-    <title>Document</title>
+    <title>Sign Up</title>
 </head>
 
 <body>
@@ -31,18 +31,16 @@
             </div>
             <div class="main-container">
                 <h1>Let's do this!</h1>
-                <form action="#" method="POST">
+                <form action="https://httpbin.org/post" method="post" id="submit">
                     <div class="items-box">
                         <div class="items">
                             <label for="first_name">First Name*
-                                <input type="text" name="first-name" id="first_name" placeholder="Your First Name"
-                                    required>
+                                <input type="text" name="first-name" id="first_name" placeholder="Your First Name" required>
                             </label>
                         </div>
                         <div class="items">
                             <label for="last_name">Last Name*
-                                <input type="text" name="last-name" id="last_name" placeholder="Your Last Name"
-                                    required>
+                                <input type="text" name="last-name" id="last_name" placeholder="Your Last Name" required>
                             </label>
                         </div>
                         <div class="items">
@@ -70,9 +68,9 @@
                 </form>
             </div>
             <div class="footer">
-                <button type="submit">Create Account</button>
+                <button type="submit" form="submit">Create Account</button>
                 <p>Already have an account? <a href="./assets/pages/login.html">Log in</a></p>
-            </div>
+             </div>
         </div>
     </main>
 </body>
