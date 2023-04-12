@@ -35,12 +35,14 @@
                     <div class="items-box">
                         <div class="items">
                             <label for="first_name">First Name*
-                                <input type="text" name="first-name" id="first_name" placeholder="Your First Name" required>
+                                <input type="text" name="first-name" id="first_name" placeholder="Your First Name" pattern="[a-zA-Z]{2,}"
+                                title="Name can't contain numbers and symbols" autofocus required>
                             </label>
                         </div>
                         <div class="items">
                             <label for="last_name">Last Name*
-                                <input type="text" name="last-name" id="last_name" placeholder="Your Last Name" required>
+                                <input type="text" name="last-name" id="last_name" placeholder="Your Last Name" pattern="[a-zA-Z]{2,}"
+                                title="Name can't contain numbers and symbols" autofocus required>
                             </label>
                         </div>
                         <div class="items">
